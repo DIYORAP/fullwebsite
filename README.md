@@ -1,28 +1,4 @@
-#EState
 
-
-
-real-estate-app/
-│
-├── backend/                    # Backend directory
-│   ├── models/                  # Mongoose models (Property, User, etc.)
-│   ├── routes/                  # Express routes
-│   ├── server.js                # Entry point for Express server
-│   ├── .env                     # Environment variables (MongoDB URI, etc.)
-│   └── package.json             # Backend dependencies
-│
-├── frontend/                   # Frontend directory (React app)
-│   ├── src/
-│   │   ├── components/          # React components
-│   │   ├── pages/               # Pages for the app (Home, Property Detail)
-│   │   ├── App.js               # Main App file
-│   │   └── index.js             # Entry point for React
-│   ├── .env                     # Frontend environment variables
-│   ├── package.json             # Frontend dependencies
-│   └── public/                  # Static files (index.html, etc.)
-│
-├── .gitignore                   # Git ignore file (node_modules, .env, etc.)
-└── README.md                    # Project description and instructions
 
 # Real Estate Application - MERN Stack
 
@@ -58,3 +34,30 @@ A full-stack real estate application built with **MongoDB**, **Express**, **Reac
    ```bash
    git clone https://github.com/DIYORAP/real-estate-app.git
    cd real-estate-app
+
+
+ #EState
+
+
+
+real-estate-app/
+│
+├── backend/                    # Backend directory
+│   ├── models/                  # Mongoose models (Property, User, etc.)
+│   ├── routes/                  # Express routes
+│   ├── server.js                # Entry point for Express server
+│   ├── .env                     # Environment variables (MongoDB URI, etc.)
+│   └── package.json             # Backend dependencies
+│
+├── frontend/                   # Frontend directory (React app)
+│   ├── src/
+│   │   ├── components/          # React components
+│   │   ├── pages/               # Pages for the app (Home, Property Detail)
+│   │   ├── App.js               # Main App file
+│   │   └── index.js             # Entry point for React
+│   ├── .env                     # Frontend environment variables
+│   ├── package.json             # Frontend dependencies
+│   └── public/                  # Static files (index.html, etc.)
+│
+├── .gitignore                   # Git ignore file (node_modules, .env, etc.)
+└── README.md                    # Project description and instructions
